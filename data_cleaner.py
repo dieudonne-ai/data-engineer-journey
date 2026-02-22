@@ -34,9 +34,17 @@ def generate_report(student_data):
     for student in student_data:
         print(f"{student['name']} - Score: {student['score']} - Grade: {student['grade']}")
 
+def save_clean_data(student_data, output_file):
+	with open(output_file, "w", newline="") as file:
+		fieldnames = ["name", "age", "score", "grade"]
+		writer = csv.DictWriter(file, fieldnames=fieldnames)
+		writer.writeheader()
+		writer.writerows(student_data)
+        
 if __name__ == "__main__":
     data = clean_data("data/students.csv")
     generate_report(data)
+    save_clean_data(data, "clean_data/students_cleaned.csv")
     
 
 # This code reads student data from a CSV file, cleans the data by handling invalid score values, assigns grades based on the scores, and generates a report. The `get_grade` function determines the grade based on the score, while the `clean_data` function processes the CSV file and handles any errors in the score values. Finally, the `generate_report` function prints out the cleaned data in a readable format.
