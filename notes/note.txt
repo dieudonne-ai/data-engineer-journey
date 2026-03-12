@@ -1,0 +1,5 @@
+the most impportant thing i understand this few weeks in data science it's tha every good data model need good understanding of data logic.
+
+The data logic skill come with to kwon how tranform raw data in analysable data.
+And to do that we need first to understand which result we need to display.
+Scripting part it's not the most important, think like data engineer it's more interresting.

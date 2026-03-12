@@ -11,4 +11,5 @@ df["score"] = pd.to_numeric(df["score"], errors="coerce")
 #print(df.isnull().sum()) #this will print the number of missing values in each column
 #print(df["score"].unique())
 
-print(df["score"].isna().sum())
+#print(df["score"].isna().sum())
+
