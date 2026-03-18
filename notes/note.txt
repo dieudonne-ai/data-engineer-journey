@@ -3,3 +3,23 @@ the most impportant thing i understand this few weeks in data science it's tha e
 The data logic skill come with to kwon how tranform raw data in analysable data.
 And to do that we need first to understand which result we need to display.
 Scripting part it's not the most important, think like data engineer it's more interresting.
+
+Today it's 18th march 2026:
+
+My skill Data & System engineer Still grow hahhaahaa.
+I don't document every step of my learning because i feel like i don't know how to do it .
+But at this time let's shinne
+
+Today learn ETL & ELT 
+
+- ETL stand for (Extract Tranform Load)
+
+>> EXTRACT Simply it's to get data from sources like APIs, DB, Web app, CSV files,...
+My view as a DSE this is the main core of data gouvernence, when you can just find pipe which can serve you data storage THAKNS GOS HAHAHHAHAHAH.
+
+>> TRANSFORM Simply clean and process data (remove missing value, convert data type, anilyze data, group data)
+>> LOAD  sipmly store the processed data (database, report, dashboard system, data warehouse)
+
+- ELT stand for (Extract Load Tranform) this is the modern system which consist of store raw data FIRST, then TRANSFORM later
+WHY???? Modern system store huge raw data.
+

@@ -1,0 +1,17 @@
+# Student Performance Analyzer
+
+This project analyzes student performance data using Python and Pandas.
+
+Features:
+
+- Data cleaning
+- Score analysis
+- Study hours analysis
+- Performance summary
+
+Technologies:
+
+- Python
+- Pandas
+- matplotlib
+- Dido (Me)
