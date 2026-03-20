@@ -25,6 +25,9 @@ def analyze_data(df):
     print("\nTop Student:")
     print(df.loc[df["exam_score"].idxmax()])
 
+    print("\nTop sleeper:")
+    print(df.loc[df["sleep_hours"].idxmax()])
+
     print("\nCorrelation Matrix:")
     print(df.corr())
 
@@ -32,8 +35,8 @@ def analyze_data(df):
 
 # Save Results
 
-def save_results(corr):
-    corr.to_csv("../results/report.csv")
+# def save_results(corr):
+#    corr.to_csv("../results/report.csv")
 
 def main():
 
@@ -43,7 +46,7 @@ def main():
 
     corr = analyze_data(df)
 
-    save_results(corr)
+#    save_results(corr)
 
 
 if __name__ == "__main__":
