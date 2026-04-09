@@ -23,3 +23,8 @@ My view as a DSE this is the main core of data gouvernence, when you can just fi
 - ELT stand for (Extract Load Tranform) this is the modern system which consist of store raw data FIRST, then TRANSFORM later
 WHY???? Modern system store huge raw data.
 
+
+
+Today it's 8th april 2026:
+
+
